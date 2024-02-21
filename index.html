@@ -1,27 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/seven-segment">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/seven-segment" rel="stylesheet">
+    <title>Boosio Calculator</title>
 </head>
+
 <body>
-    <main>
-        <section>
-            <!-- Calculator -->
-            <div class="container">
-                <!-- logo -->
-                <img class="logo" src="./img/Boosio-logo.png" alt="logo">
-                <!-- Display of calculator -->
-                <div class="srceen">
-                    <!-- Number inside the screen -->
-                    <span class="number">0</span>
-                </div>
+    <!-- Container for calculator position-->
+    <main class="main-container">
+
+        <!-- Container -->
+        <div class="container">
+
+            <!-- Calculator Header -->
+            <div class="calc-header">
+                <img src="img/Boosio-logo.png" alt="logo">
             </div>
-        </section>
+            <!-- /Calculator Header -->
+
+            <!-- Calculator Display -->
+            <div class="display">
+                <span class="display-number">0</span>
+            </div>
+            <!-- /Calculator Display -->
+
+            <!-- Calculator Bottom -->
+            <div class="calculator-bottom">
+
+                <!-- Left Side -->
+                <div class="left-side">
+
+                    <input class="num-btn" type="button" value="7">
+                    <input class="num-btn" type="button" value="8">
+                    <input class="num-btn" type="button" value="9">
+                    <input class="num-btn" type="button" value="4">
+                    <input class="num-btn" type="button" value="5">
+                    <input class="num-btn" type="button" value="6">
+                    <input class="num-btn" type="button" value="1">
+                    <input class="num-btn" type="button" value="2">
+                    <input class="num-btn" type="button" value="3">
+                    <input class="zero num-btn" type="button" value="0">
+                    <input class="equ-btn" type="button" value="=">
+
+                </div>
+                <!-- /Left Side -->
+
+                <!-- Right Side -->
+                <div class="flex right-side">
+                    <input class="del-btn" type="button" value="C">
+                    <input class="fx-btn" type="button" value="+">
+                    <input class="fx-btn" type="button" value="-">
+                    <input class="fx-btn" type="button" value="x">
+                    <input class="fx-btn" type="button" value="÷">
+                </div>
+                <!-- /Right Side -->
+
+            </div>
+            <!-- /Calculator Bottom -->
+
+        </div>
+        <!-- /Container -->
+
     </main>
+    <!-- /Container for calculator position -->
 
 </body>
+
 </html>
