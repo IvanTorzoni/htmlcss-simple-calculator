@@ -9,21 +9,37 @@ img{
     max-width: 100%;
 }
 
-/* header */
-.header {
+/* container */
+.container{
     width: 50%;
+    height: 1000px;
     margin: 200px auto;
     background-color: lightgray;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+    flex-direction: column;
+}
 
-/* logo */
+/* Logo */
 .logo{
-    height: 250px;
-}  
+    margin: 0 auto 30px;
+    height: 150px;
+}
 
+/* screen of calculator */
+.srceen{
+    height: 150px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* number in the screen */
+.number{
+    color: #08c68f;
+    font-size: 50px;
+    font-family: seven segment ;
+    padding-right: 15px;
+}
