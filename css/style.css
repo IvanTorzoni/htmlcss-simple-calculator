@@ -86,7 +86,6 @@ img {
     width: 100px;
     height: 100px;
     font-size: 50px;
-    cursor: grab;
     background-color: #bbbbbb;
     border-radius: 20px;
 }
@@ -101,7 +100,6 @@ img {
     width: 100px;
     height: 100px;
     font-size: 50px;
-    cursor: grab;
     color: white;
     background-color: #FF9F0A;
     border-radius: 20px;
@@ -114,7 +112,6 @@ img {
     font-size: 40px;
     font-family: monospace;
     color: white;
-    cursor: grab;
     background-color: #FF9F0A;
     border-radius: 20px;
 }
@@ -126,7 +123,6 @@ img {
     font-size: 40px;
     font-family: monospace;
     background-color: #77a8b0;
-    cursor: grab;
     color: white;
     border-radius: 20px;
 }
