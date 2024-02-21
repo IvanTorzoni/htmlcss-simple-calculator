@@ -5,4 +5,25 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
+/* header */
+.header {
+    width: 50%;
+    margin: 200px auto;
+    background-color: lightgray;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+/* logo */
+.logo{
+    height: 250px;
+}  
 
