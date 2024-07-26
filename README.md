@@ -1,4 +1,4 @@
-ES 4
+ES 5
 
 La calcolatrice...però mancano le batterie per farla funzionare.
 Un giorno le dovrò comprare...
